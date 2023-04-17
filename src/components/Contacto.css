@@ -1,0 +1,56 @@
+
+.formulario {
+    background-image: url('../images/fondoInicio2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    /* justify-content: center; */
+    margin: 0 !important;
+  
+    
+}
+
+.tituloContacto {
+    color:darkblue;
+    font-size: x-large;
+    /* text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+		0 0 0.2em #87F; */
+}
+
+.contornoFormulario {
+  background-color:rgb(132, 214, 244);
+  /* border-color:darkblue; */
+}
+.btnContacto {
+  background-color:darkblue;
+  color: aliceblue;
+}
+
+.mensaje {
+  width: 300px !important;
+}
+
+.fotoCirugia {
+ max-height: 100%;
+
+} 
+
+.divFoto {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.divLetras {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.textoContacto {
+  color:antiquewhite;
+  text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+}

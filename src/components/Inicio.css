@@ -1,0 +1,57 @@
+.containerMain{
+    background-image: url('../images/fondoInicio2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    margin: 0 !important;
+    width: 100%;
+}
+
+.parrafoInicio {
+  /* padding-top: 30px; */
+  color:darkblue;
+
+}
+
+.tituloNombre {
+    color:dimgray;
+     text-shadow: 0 0 0.2em rgb(22, 24, 33),0 0 0.2em rgb(22, 24, 33);
+}
+.tituloPatologias {
+    color:deepskyblue;
+}
+
+.botonLeerMas {
+    background-color: brown;
+    max-width: 15%;
+    
+}
+
+.imagenHigado {
+    min-height: 600px;
+    background-image: url('../images/fotoHigadoGuante.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    
+}
+
+@media screen and (max-width:990px){
+   .descripcionMedico {
+       margin-left: 100px;
+   }
+}
+
+@media screen and (max-width:500px){
+    .descripcionMedico {
+        margin-left: 20px;
+    }
+
+    .botonLeerMas {
+        max-width: 30%;
+    }
+ }
+
+  
