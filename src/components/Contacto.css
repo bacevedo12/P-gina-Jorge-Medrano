@@ -11,6 +11,7 @@
     
 }
 
+
 .tituloContacto {
     color:darkblue;
     font-size: x-large;
@@ -31,15 +32,21 @@
   width: 300px !important;
 }
 
-.fotoCirugia {
- max-height: 100%;
+.container {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-} 
 
-.divFoto {
+
+/* .divFoto {
   position: relative;
   display: inline-block;
   text-align: center;
+  
 }
 
 .divLetras {
@@ -48,9 +55,23 @@
   left: 50%;
   transform: translate(-50%, -50%);
  
-}
+} */
 
 .textoContacto {
   color:antiquewhite;
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width:700px){
+  .mensaje {
+    width: 200px !important;
+  }
+
 }

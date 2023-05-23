@@ -10,7 +10,7 @@ const Contacto = () => {
         
           
         
-        <div className="  border-2 contornoFormulario">  
+        <div className="  border-2 pb-5 pt-5  contornoFormulario">  
             <h1 className="tituloContacto  p-4 fs-1 fw-bold">CONTACTO</h1>
             <div>
             <input className="nombre rounded border border-dark border-2 p-2 mt-3" type="text" id="nombre" name="nombre" placeholder="Nombre" />
@@ -35,15 +35,17 @@ const Contacto = () => {
     
             <div>
             <button type="submit" className="btnContacto btn-lg m-4" id="boton" name="boton" >Enviar </button>
+           
             </div>
             </div>    
         </form>
         </div> 
-         <div className=" divFoto col-lg-6 col-sm-6  mt-5 ms-5 ">
+         <div className="container divFoto col-lg-6 col-sm-6">
          <img alt=""src={fotoCirugia} className="fotoCirugia img-fluid"/>
-         <div className="divLetras">
-            <h2 className="textoContacto fw-bold">"La Salud no lo es todo, pero sin ella todo lo demás es nada"</h2>
-         </div>
+         <h2 className="textoContacto fw-bold">"La Salud no lo es todo, pero sin ella todo lo demás es nada"</h2>
+         {/* <div className="divLetras">
+           
+         </div> */}
         </div> 
     </section>
     )

@@ -1,5 +1,4 @@
 import fotoDoctor from "../images/fotoDoctor.jpg";
-import PaginaSanatorio from "./PaginaSanatorio";
 import { Button } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import "./Inicio.css"
@@ -26,12 +25,12 @@ const Inicio = () => {
                         <h1 className="tituloPatologias fw-bold text-center pt-5 fs-1">PRINCIPALES PATOLOGÍAS</h1>
                     </div>
                     <div>
-                        <ul className="fw-bold text-center text-white fs-2 mt-5">Colelitiasis o Cálculos en la Vesícula Biliar</ul>
-                        <ul className="fw-bold text-center text-white fs-2">Tumores de Hígado </ul>
-                        <ul className="fw-bold text-center text-white fs-2">Tumores de Páncreas</ul>
-                        <ul className="fw-bold text-center text-white fs-2">Tumores de Vesícula Biliar y Vías Biliares</ul>
-                        <ul className="fw-bold text-center text-white fs-2">Hernias</ul>
-                        <ul className="fw-bold text-center text-white fs-2">Pancreatitis Crónica</ul>
+                        <ul className="listaPatologia fw-bold text-center text-white fs-2 mt-5">Colelitiasis o Cálculos en la Vesícula Biliar</ul>
+                        <ul className="listaPatologia fw-bold text-center text-white fs-2">Tumores de Hígado </ul>
+                        <ul className="listaPatologia fw-bold text-center text-white fs-2">Tumores de Páncreas</ul>
+                        <ul className="listaPatologia fw-bold text-center text-white fs-2">Tumores de Vesícula Biliar y Vías Biliares</ul>
+                        <ul className="listaPatologia fw-bold text-center text-white fs-2">Hernias</ul>
+                        <ul className="listaPatologia fw-bold text-center text-white fs-2">Pancreatitis Crónica</ul>
                     </div>
                     <div className="">
                       

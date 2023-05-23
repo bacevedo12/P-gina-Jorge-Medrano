@@ -1,5 +1,6 @@
 import { Button } from "react-bootstrap";
 import "./SobreMi.css"
+import { Link } from 'react-router-dom';
 import fotoDoctor from "../images/fotoDoctor.jpg";
 
 const SobreMi = () => {
@@ -7,19 +8,18 @@ const SobreMi = () => {
         <div className="sobreMi">
         <main className=" fw-bold fs-4">
             <div className="row">
-            <h1 className="nombreDoctor pt-5 mb-4 text-center text-white">DR. JORGE MEDRANO DÍAZ</h1>
-            <hr></hr>
+            <h1 className="nombreDoctor pt-5 mb-4 fw-bold text-center">DR. JORGE MEDRANO DÍAZ</h1>
+            <hr className="linea"></hr>
             <div className="col-lg-6 col-sm-12">
                 <img alt="fotoDoctor"src={fotoDoctor} className="imagenDoctor mt-2 mb-5 img-fluid"/>
             </div>
-            <div className=" text-white col-lg-6 col-sm-12">
-            <p className="text-start ms-5">Cirujano Hepato-Bilio-Pancréatico</p>
-            <p className="text-start ms-5">Jefe Equipo de Cirugía Hepatobiliar. Hospital Las Higueras, Talcahuano</p>
-            <p className="text-start ms-5">Docente Ad Honorem. Facultad de Medicina. Universidad de Concepción</p>
-            <p className="text-start ms-5">Consulta en Sanatorio Alemán, Concepción</p>
-            <a href="https://pidehora.sanatorioaleman.cl/?utm_source=web&utm_medium=boton_home&utm_campaign=click" target="_blank">
-            <Button  className="text-light fw-bold fs-5 m-5  botonPedirHora2 text-start" variant="danger">Pedir Hora</Button>
-            </a> 
+            <div className="text-white col-lg-6 col-sm-12">
+                <p className="listaCargos text-start ms-5">Cirujano Hepato-Bilio-Pancréatico</p>
+                <p className="listaCargos text-start ms-5">Jefe Equipo de Cirugía Hepatobiliar. Hospital Las Higueras, Talcahuano</p>
+                <p className="listaCargos text-start ms-5">Docente Ad Honorem. Facultad de Medicina. Universidad de Concepción</p>
+                <p className="listaCargos text-start ms-5">Consulta en Sanatorio Alemán, Concepción</p>
+                <Button as={Link} to="/PaginaSanatorio" className="text-light fw-bold fs-4 m-5 botonPedirHora2 text-start" variant="danger">Pedir Hora</Button>
+                  
             </div>
             </div>
             <div className="row col-3 justify-content-start">
@@ -27,8 +27,8 @@ const SobreMi = () => {
             </div>
            
         </main>
-        <section className="estudios container pb-5">
-            <h1 className="tituloEstudios pt-5 pb-4 text-center text-white">Estudios y Perfeccionamiento</h1>
+        <section className="estudios pb-5">
+            <h1 className="tituloEstudios pt-5 pb-4 text-center fw-bold">Estudios y Perfeccionamiento</h1>
             <hr></hr>
             <div className="row justify-content-center">
             <div className="col-6 border border-4 p-3 border-danger bg-light">

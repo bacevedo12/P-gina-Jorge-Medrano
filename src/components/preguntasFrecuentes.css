@@ -1,0 +1,29 @@
+.preguntasFrecuentes {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(123, 154, 227);
+}
+
+.tituloCirugia {
+    background-image: url('../images/mano-higado.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width:100%;
+    height: 600px;
+    color: rgb(89, 160, 204);
+    text-shadow: 0 0 0.2em rgb(240, 241, 245),0 0 0.2em rgb(240, 241, 245);
+}
+
+.tituloPreguntasFrecuentes {
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;  
+}
+.pregunta {
+    color:#175676 ;
+}
+
+.fotoAnatomiaHepatobiliar {
+    max-width: 60%;
+}
+
+.fotoVesicula {
+    max-width: 60%;
+}

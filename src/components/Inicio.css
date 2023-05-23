@@ -12,26 +12,37 @@
 .parrafoInicio {
   /* padding-top: 30px; */
   color:darkblue;
-
+  text-shadow: 0 0 0.2em rgb(35, 157, 176),0 0 0.2em rgb(35, 157, 176);
 }
 
 .tituloNombre {
-    color:dimgray;
-     text-shadow: 0 0 0.2em rgb(22, 24, 33),0 0 0.2em rgb(22, 24, 33);
+    color: rgb(89, 160, 204);
+    text-shadow: 0 0 0.2em rgb(240, 241, 245),0 0 0.2em rgb(240, 241, 245);
+    /* color:dimgray;
+     text-shadow: 0 0 0.2em rgb(22, 24, 33),0 0 0.2em rgb(22, 24, 33); */
 }
 .tituloPatologias {
-    color:deepskyblue;
+    color:darkblue;
+    text-shadow: 0 0 0.2em rgb(35, 157, 176),0 0 0.2em rgb(35, 157, 176);
+    /* color: rgb(89, 160, 204);
+    text-shadow: 0 0 0.2em rgb(240, 241, 245),0 0 0.2em rgb(240, 241, 245); */
+    /* text-shadow: 0 0 0.2em rgb(240, 241, 245),0 0 0.2em rgb(240, 241, 245); */
+    /* color:deepskyblue; */
 }
 
+.listaPatologia {
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;  
+}
 .botonLeerMas {
-    background-color: brown;
+    background-color: rgb(89, 160, 204);
+    /* background-color: brown; */
     max-width: 15%;
     
 }
 
 .imagenHigado {
     min-height: 600px;
-    background-image: url('../images/fotoHigadoGuante.jpg');
+    background-image: url('../images/fotoHigadoGuante3.png');
     background-size: cover;
     background-position: center;
     margin-top: 30px;
