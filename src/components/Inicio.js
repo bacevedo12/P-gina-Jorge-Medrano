@@ -13,10 +13,10 @@ const Inicio = () => {
                 </div>
              <div className="descripcionMedico col-lg-6 col-sm-12">
               <h1 className="tituloNombre mt-5 fw-bold text-start"> Dr. JORGE MEDRANO DIAZ</h1>
-              <p className="parrafoInicio pt-4 fs-3 fw-bold mt-3 text-start">Médico Cirujano</p>
-              <p className="parrafoInicio text-start fs-3 fw-bold ">Especialista en Cirugía General</p>
-              <p className="parrafoInicio text-start fs-3 fw-bold">Subespecialista en Cirugía Hepato-Bilio-Pancreatica</p>
-              <Button as={Link} to="/SobreMi" className="text-light m-5 botonLeerMas" variant="secondary">Leer más</Button>
+              <p className="parrafoInicio pt-4 fs-3 fw-bold mt-3 text-start text-secondary">Médico Cirujano</p>
+              <p className="parrafoInicio text-start fs-3 fw-bold text-secondary">Especialista en Cirugía General</p>
+              <p className="parrafoInicio text-start fs-3 fw-bold text-secondary">Subespecialista en Cirugía Hepato-Bilio-Pancreatica</p>
+              <Button as={Link} to="/SobreMi" className="btn text-light m-5 border border-white border-2 botonLeerMas" variant="danger">Leer más</Button>
               </div> 
             </main> 
             <section>
@@ -34,7 +34,7 @@ const Inicio = () => {
                     </div>
                     <div className="">
                       
-                    <Button as={Link} to="/PaginaSanatorio" className="text-light fw-bold fs-4 m-5 botonPedirHora text-start" variant="danger">Pedir Hora</Button>
+                    <Button as={Link} to="/PaginaSanatorio" className=" btn text-light fw-bold fs-4 m-5 botonPedirHora  border-white border-2 text-start" variant="danger">Pedir Hora</Button>
                   
                     </div>
                 </div>

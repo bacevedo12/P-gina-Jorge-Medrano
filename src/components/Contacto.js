@@ -1,16 +1,16 @@
 import "./Contacto.css"
-import fotoCirugia from "../images/fotoCirugia.jpg";
+import fotoCirugia from "../images/fotoCirugia.jpg"
 
 
 const Contacto = () => {
     return (
         <section className="row formulario" id="Contacto">
         <div className="contacto col-lg-4 col-sm-6">
-        <form action="https://formsubmit.co/bacevedo85@hotmail.com" method="POST" className="text-white text- "> 
+        <form action="https://formsubmit.co/drjorgemedranod@gmail.com" method="POST" className="text-white text- "> 
         
           
         
-        <div className="  border-2 pb-5 pt-5  contornoFormulario">  
+        <div className="  border-2 pb-5 pt-5 mt-5 mb-5 contornoFormulario">  
             <h1 className="tituloContacto  p-4 fs-1 fw-bold">CONTACTO</h1>
             <div>
             <input className="nombre rounded border border-dark border-2 p-2 mt-3" type="text" id="nombre" name="nombre" placeholder="Nombre" />
@@ -41,8 +41,9 @@ const Contacto = () => {
         </form>
         </div> 
          <div className="container divFoto col-lg-6 col-sm-6">
-         <img alt=""src={fotoCirugia} className="fotoCirugia img-fluid"/>
-         <h2 className="textoContacto fw-bold">"La Salud no lo es todo, pero sin ella todo lo demás es nada"</h2>
+         <img alt=""src={fotoCirugia} className="fotoCirugia mt-5 mb-5 img-fluid"/>
+         {/* <h2 className="textoContacto fs-1 fw-bold">"La Salud no lo es todo, pero sin ella todo lo demás es nada"</h2> */}
+         <h2 className="textoContacto fs-1 fw-bold">"La base para toda felicidad es la buena salud"</h2>
          {/* <div className="divLetras">
            
          </div> */}

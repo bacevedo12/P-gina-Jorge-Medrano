@@ -7,6 +7,7 @@
     background-size: cover;
     /* justify-content: center; */
     margin: 0 !important;
+   
   
     
 }
@@ -22,6 +23,7 @@
 .contornoFormulario {
   background-color:rgb(132, 214, 244);
   /* border-color:darkblue; */
+  
 }
 .btnContacto {
   background-color:darkblue;
@@ -61,12 +63,12 @@
   color:antiquewhite;
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  left: 40%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 20px;
-  text-align: center;
+  text-align:center;
 }
 
 @media screen and (max-width:700px){

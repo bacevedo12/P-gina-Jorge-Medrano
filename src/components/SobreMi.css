@@ -1,5 +1,5 @@
 .sobreMi {
-    background-image: url('../images/fondoSobreMi2.jpg');
+    background-image: url('../images/fondoSobreMi.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -11,15 +11,13 @@
 
 
 .nombreDoctor {
-    color: rgb(89, 160, 204);
-    text-shadow: 0 0 0.2em rgb(240, 241, 245),0 0 0.2em rgb(240, 241, 245);
-    /* color:darkblue;
-    text-shadow: 0 0 0.2em rgb(35, 157, 176),0 0 0.2em rgb(35, 157, 176); */
-    /* text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;   */
-}
+     text-shadow: 0 0 0.2em rgb(239, 60, 33), 0 0 0.2em rgb(239, 60, 33);   
+
+} 
 
 .listaCargos {
-    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87; 
+ 
+    /* text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;  */
 }
 .estudios {
     color: #070A52;
@@ -33,12 +31,12 @@
 }
 
 .tituloEstudios {
-    color: rgb(89, 160, 204);
-    text-shadow: 0 0 0.2em rgb(240, 241, 245),0 0 0.2em rgb(240, 241, 245);
-    /* color:darkblue;
-    text-shadow: 0 0 0.2em rgb(35, 157, 176),0 0 0.2em rgb(35, 157, 176); */
+    /* color: rgb(16, 5, 75);
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;    */
+    /* text-shadow: 0 0 0.2em rgb(244, 238, 238), 0 0 0.2em rgb(250, 210, 204);    */
+    text-shadow: 0 0 0.2em rgb(239, 60, 33), 0 0 0.2em rgb(239, 60, 33); 
     padding-top: 100px;
-    /* text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87; */
+
 }
 
 .divider {
