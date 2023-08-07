@@ -4,6 +4,11 @@ import logoHospital from '../images/logoHospitalHiguera.jpg'
 import logoSanatorio from '../images/logoSanatorioAleman.jpg'
 
 const FooterPagina = () => {
+  const numeroTelefono = "800 100 555"; 
+
+  const handleLlamarClick = () => {
+    window.location.href = "tel:" + numeroTelefono;
+  };
     return (
       <div>
           <footer className="text-white bg-dark py-4">
@@ -30,7 +35,7 @@ const FooterPagina = () => {
                     
                     <div className='col-xs-12 col-lg-3'>
                         {/* <h3>Contacto</h3> */}
-                        <i className="telefono fa-solid fa-phone text-danger"></i>
+                        <i onClick={handleLlamarClick} className="telefono fa-solid fa-phone text-danger"></i>
                         <p> 800 100 555</p>
                         <i class="fa-solid fa-envelope text-danger"></i>
                         <p>jmedranod@gmail.com</p>

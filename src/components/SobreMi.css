@@ -47,3 +47,21 @@
        
     
     }
+
+    @media screen and (max-width:500px){
+        .subtituloEstudios {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    
+      
+     }
+    
+     @media screen and (max-width:370px){
+        .subtituloEstudios {
+            font-size: 12px;
+            font-weight: bold;
+        }
+    
+      
+     }
