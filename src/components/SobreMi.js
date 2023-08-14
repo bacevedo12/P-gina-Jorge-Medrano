@@ -15,19 +15,22 @@ const SobreMi = () => {
             </div>
             <div className="col-lg-6 col-sm-12">
                 <div className="text-white ms-5 me-5 mt-3 mb-5 p-4 border border-white border-3">
-                <ul>
-                <li className="listaCargos text-start ms-3 mb-2">Cirujano Hepato-Bilio-Pancréatico</li>
-                <li className="listaCargos text-start ms-3 mb-2">Jefe Equipo de Cirugía Hepatobiliar. Hospital Las Higueras, Talcahuano</li>
-                <li className="listaCargos text-start ms-3 mb-2">Docente Ad Honorem. Facultad de Medicina. Universidad de Concepción</li>
-                <li className="listaCargos text-start ms-3 mb-2">Consulta en Sanatorio Alemán, Concepción</li>
+                    <ul>
+                        <li className="listaCargos text-start ms-3 mb-2">Cirujano Hepato-Bilio-Pancréatico</li>
+                        <li className="listaCargos text-start ms-3 mb-2">Jefe Equipo de Cirugía Hepatobiliar. Hospital Las Higueras, Talcahuano</li>
+                        <li className="listaCargos text-start ms-3 mb-2">Docente Ad Honorem. Facultad de Medicina. Universidad de Concepción</li>
+                        <li className="listaCargos text-start ms-3 mb-2">Consulta en Sanatorio Alemán, Concepción</li>
+                        <li className="listaCargos text-start ms-3 mb-2">Consulta en RedMédicaSur, Concepción</li>
                 </ul>
                 </div>
-                <Button as={Link} to="/PaginaSanatorio" className="btn text-light fw-bold fs-4  border border-white border-2 botonPedirHora2 text-start" variant="danger">Pedir Hora</Button>
-                  
+                    
             </div>
-            </div>
-            <div className="row col-3 justify-content-start">
-            
+            <div>
+                <a href="https://s3.philaxmed.cl/ReservaOnline.html?mc=red_medica_sur#_" target="_blank">    
+                    <Button className=" btn text-light fs-4 m-5 botonPedirHora  border-white border-2 text-start" variant="danger">Pedir Hora RedMédicaSur</Button> 
+                </a>
+                    <Button as={Link} to="/PaginaSanatorio" className=" btn text-light  fs-4 m-5 botonPedirHora  border-white border-2 text-start" variant="danger">Pedir Hora Sanatorio Alemán </Button>
+            </div> 
             </div>
            
         </main>

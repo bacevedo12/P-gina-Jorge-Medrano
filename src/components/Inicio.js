@@ -5,6 +5,7 @@ import "./Inicio.css"
 
 
 const Inicio = () => {
+
     return (
         <div className="containerMain">
             <main className="row justify-content-center">
@@ -33,9 +34,11 @@ const Inicio = () => {
                         <ul className="listaPatologia fw-bold text-center text-white fs-2">Pancreatitis Crónica</ul>
                     </div>
                     <div className="">
-                      
-                    <Button as={Link} to="/PaginaSanatorio" className=" btn text-light fw-bold fs-4 m-5 botonPedirHora  border-white border-2 text-start" variant="danger">Pedir Hora</Button>
-                  
+                    <a href="https://s3.philaxmed.cl/ReservaOnline.html?mc=red_medica_sur#_" target="_blank">    
+                    <Button className=" btn text-light fs-5 m-5 botonPedirHora  border-white border-2 text-start" variant="danger">Pedir Hora RedMédicaSur</Button> 
+                    </a>
+                    <Button as={Link} to="/PaginaSanatorio" className=" btn text-light  fs-5 m-5 botonPedirHora  border-white border-2 text-start" variant="danger">Pedir Hora Sanatorio Alemán </Button>
+               
                     </div>
                 </div>
             </section>
